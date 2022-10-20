@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(_variaveis.css);
+
+body {
+    color: var(--cinza);
+    font-family: var(--fonte-corpo);
+
+    background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
+    background-position: center;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.titulo {
+    font-size: 1.375rem;
+
+}
+
+.titulo--destaque {
+    font-family: var(--fonte-titulo-destaque);
+    color: var(--preto);
+    font-weight: 900;
+    font-size: 2rem;
+    display: block;
+    margin: .75rem 0;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
